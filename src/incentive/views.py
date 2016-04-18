@@ -371,12 +371,18 @@ class Config(object):
 
     conf['strmLog'] = '/home/eran/Documents/Logs/streamer.log'
 
+<<<<<<< HEAD
 
     conf['predLog'] = '/home/eran/Documents/Logs/predictor.log'
 
 
     conf['dis_predLog'] = '/home/eran/Documents/Logs/dis_predictor.log'
 
+=======
+  
+
+'
+>>>>>>> origin/master
 cnf = Config().conf
 
 @condition(etag_func=None)
