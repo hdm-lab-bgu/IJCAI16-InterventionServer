@@ -378,15 +378,9 @@ class Config(object):
     #conf['dis_predLog'] = '/home/ise/Logs/dis_predictor.log'
     conf['dis_predLog'] = '/home/eran/Documents/Logs/dis_predictor.log'
 
-    conf['debug'] = False
+  
 
-    conf['user'] = 'root'
-
-    conf['password'] = '9670'
-
-    conf['host'] = 'localhost'
-
-    conf['db'] = 'streamer'
+'
 cnf = Config().conf
 
 @condition(etag_func=None)
